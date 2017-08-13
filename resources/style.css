@@ -1,0 +1,35 @@
+html {font-size: 16px;}
+
+body {
+  background-color: #74ed91;
+  font-family: monospace;
+}
+
+.container {
+  margin: 10rem auto 0 auto;
+
+}
+
+.col {
+  /*display: inline-block;*/
+  margin: .25rem;
+  width: 6rem;
+  height: 6rem;
+  text-align: center;
+  background-color: #fefefe;
+  font-size: 6rem;
+  padding: .25rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: .125rem 0 0 0;
+}
+
+button {
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  margin: 2rem auto;
+}

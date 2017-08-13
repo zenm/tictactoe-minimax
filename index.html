@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>tictactoe</title>
+  <link rel="stylesheet" href="./resources/reset.css">
+  <link rel="stylesheet" href="./resources/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col" data-i=0 data-j=0></div>
+      <div class="col" data-i=0 data-j=1></div>
+      <div class="col" data-i=0 data-j=2></div>
+    </div>
+    <div class="row">
+      <div class="col" data-i=1 data-j=0></div>
+      <div class="col" data-i=1 data-j=1></div>
+      <div class="col" data-i=1 data-j=2></div>
+    </div>
+    <div class="row">
+      <div class="col" data-i=2 data-j=0></div>
+      <div class="col" data-i=2 data-j=1></div>
+      <div class="col" data-i=2 data-j=2></div>
+    </div>
+    <div>
+      <button id="restart"type="button" name="restart">Restart</button>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
+  <script type="text/javascript" src="./resources/app.js"></script>
+  <script>
+  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+  ':35729/livereload.js?snipver=1"></' + 'script>')
+  </script>
+</body>
+</html>
